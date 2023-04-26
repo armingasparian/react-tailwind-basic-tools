@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.product-pizza .slick-slide{
+    margin: 0 3vw 0 0;
+}
+.product-pizza .slick-slide:first-child {
+    margin: 0 21.7vw 0 0;
+}
+.product-pizza .slick-list {
+    max-height: 390px;
+}
